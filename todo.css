@@ -1,0 +1,89 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;text-transform: capitalize;
+}
+.container{
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+body {
+    background-color: black;
+    font-size:20px;
+    font-family: sans-serif;
+}
+table {
+    border: 2px solid black;
+    max-width: 90%;
+    margin: 20px auto;
+}
+caption {
+    font-size: 50px;
+    padding: 20px;
+    color:antiquewhite;
+}
+
+table tr td {
+    padding:10px;
+}
+thead,
+tfoot {
+    background-color: rgb(81, 10, 81);
+    color: antiquewhite;
+}
+.task{
+   max-width: 400px;
+   overflow-wrap: break-word;
+}
+.dead{
+   max-width: 150px;
+   overflow-wrap: break-word;
+}
+.head {
+    width: 75%;
+    text-align: center;
+    font-size: 30px;
+}
+thead tr:last-child td:first-child{
+width: 50%;
+}
+.title {
+    text-align: center;
+}
+
+button {
+    background-color: red;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: antiquewhite;;
+    cursor: pointer;
+    margin: 5px;
+}
+tbody td.control {
+    margin: auto;
+   text-align: center;
+}
+#create {
+    text-align: center;
+    font-size: 20px;
+}
+.control:not(#create) {
+    display: flex;
+    justify-content: center;
+    min-width: max-content;
+}
+tbody {
+    background-color: rgb(215, 208, 208);
+}
+.green{
+    background-color: rgb(123, 197, 26);
+}
+.dark{
+    background-color: green;
+}
+tbody tr td:first-child{
+    width: 50%;
+}

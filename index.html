@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./todo.css">
+    <title>To Do list project</title>
+    
+</head>
+<body>
+    <div class="container">
+        <table>
+            <caption>To Do list</caption>
+            <thead>
+                <tr>
+                    <td class="head" colspan="3">my tasks</td>
+                    <td class="control " id="create" rowspan="2"><button>create</button></td>
+                </tr>
+                <tr><br>
+                    <td class="title">tasks name</td>
+                    <td class="title">creation date</td>
+                    <td class="title"> deadline </td>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+               
+            </tbody>
+            <tfoot id="tfoot">
+                <tr>
+                    <td colspan="2">number of tasks : 0 </td>
+                    <td colspan="">done tasks :<br>0 </td>
+                    <td colspan="">tasks to do :<br>0 </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div><!-- container -->
+   <script src="./script.js"></script>
+</body>
+</html>
